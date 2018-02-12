@@ -1,0 +1,34 @@
+{
+  "name": "node_modules_study",
+  "version": "1.0.0",
+  "description": "understanding the node modules and read source code for study node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "node init.js --open",
+    "vue-init": "node vueInit.js"
+  },
+  "dependencies": {
+    "commander": "^2.12.2",
+    "download-git-repo": "^1.0.1",
+    "ejs": "^2.5.7",
+    "express-session": "^1.15.6",
+    "inquirer": "^4.0.2",
+    "metalsmith": "^2.3.0",
+    "os": "^0.1.1",
+    "read-metadata": "^1.0.0",
+    "request": "^2.83.0",
+    "user-home": "^2.0.0",
+    "webcamera": "^0.2.3"
+  },
+  "devDependencies": {
+    "express": "^4.16.2",
+    "minimist": "^1.2.0",
+    "open": "0.0.5",
+    "phantomjs-prebuilt": "^2.1.16",
+    "shelljs": "^0.7.8",
+    "supervisor": "^0.12.0"
+  },
+  "author": "YOLO",
+  "license": "MIT"
+}
